@@ -1,3 +1,6 @@
+# leetcode 1143 Longest Common Subsequence
+
+# dp time: O(mn) space: O(mn)
 def longestCommonSubsequence(text1: str, text2: str) -> int:
     dp = [[0 for _ in range(len(text2) + 1)] for _ in range(len(text1) + 1)]
     for i in range(len(text1)):

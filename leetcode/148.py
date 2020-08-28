@@ -1,6 +1,5 @@
 # leetcode 148 sort list 
 
-
 # merge sort time: O(nlogn) space: O(logn) 220ms
 def sortList(self, head: ListNode) -> ListNode:
         # merge sort top-down
